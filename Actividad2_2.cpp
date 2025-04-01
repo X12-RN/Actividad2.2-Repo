@@ -1,3 +1,9 @@
+/*
+Author: Adrian Salazar 
+Date: 2025-3-31
+Description: Suffix Array Native Implementation
+*/ 
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -5,7 +11,7 @@
 using namespace std;
 
 
-vector<int> suffixArrayNative(string S) {
+vector<int> suffix_array_native(string S) {
     int n = S.length(); // evitando agregar el $ como sufijo
     vector<string> sa;
     vector<int> A(n);
@@ -25,7 +31,7 @@ int main(){
     string S;
     getline(cin, S);
     
-    vector<int> arr = suffixArrayNative(S);
+    vector<int> arr = suffix_array_native(S);
     
     for (int pos : arr) {
         cout << pos << "\n";
@@ -33,3 +39,5 @@ int main(){
     
     return 0;
 }
+
+

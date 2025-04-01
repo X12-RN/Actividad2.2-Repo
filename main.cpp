@@ -21,7 +21,7 @@
  * 
  * Author: Adrian Salazar 
  * Date: 2025-3-31
- * Description: Suffix Array Native Implementation
+ * Description: Suffix Array Native Implementationa
  */
 
  
